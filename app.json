@@ -1,0 +1,32 @@
+{
+    "name": "BOT",
+    "description": "An BOT",
+    "repository": "https://github.com/mdshuvo0/Puppeteer-Heroku",
+    "logo": "https://telegra.ph/file/1adba0bdcbcf7d81c8ab8.jpg",
+    "stack": "container",
+    "keywords": [
+      "telegram",
+      "voicechat",
+      "bot",
+      "video",
+      "player",
+      "python",
+      "pyrogram",
+      "pytgcalls",
+      "videoplayer"
+    ],
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "free"
+      }
+    },
+    "buildpacks": [
+      {
+        "url": "https://github.com/jontewks/puppeteer-heroku-buildpack"
+      },
+      {
+        "url": "heroku/python"
+      }
+    ]
+  }
